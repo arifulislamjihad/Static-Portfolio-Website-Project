@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="left">
+            <a href="/">My Portfolio</a>
+        </div>
+
+        <div class="right">
+            <a href="#skills" class="active">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>
+
+            <a href="#projects">
+                <i class="fa-solid fa-pen"></i>
+                <span>Projects</span>
+            </a>
+
+            <a href="#contact">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Habib.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti nemo quos ex tenetur fuga, id
+                    fugit dolores animi saepe error placeat, quibusdam atque tempore dignissimos eum ipsa! Eligendi
+                    commodi eveniet veritatis! Tempore, incidunt quam tempora, suscipit, beatae molestiae ea fugiat
+                    libero similique ratione quisquam adipisci officia aspernatur delectus eius.</p>
+
+                <div class="links">
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/hero-headshot.webp" alt="hero headshot">
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="skills-section" id="skills">
+            <h2>Skills</h2>
+            <div class="text">
+                Proficient in modern web development technologies.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="HTML logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="CSS logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="JavaScript logo">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/react-logo.webp" alt="React logo">
+                    <span>ReactJS</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="images/LIBRARY-MANAGMENT-SYSTEM-IN-PYTHON-WITH-CSV-780x439.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Advanced-Library-Management-CLI-project</p>
+                    <a href="https://github.com/arifulislamjihad/Advanced-Library-Management-CLI-project" target="_blank">View Code</a>
+                    <a href="https://github.com/arifulislamjihad/Advanced-Library-Management-CLI-project" target="_blank">Live Demo</a>
+                </div>
+
+                <div class="project">
+                    <img src="images/Screenshot 2025-01-15 115310.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Simple-Resume-Template-Design-using-HTML Public</p>
+                    <a href="https://github.com/arifulislamjihad/Simple-Resume-Template-Design-using-HTML" target="_blank">View Code</a>
+                    <a href="https://arifulislamjihad.github.io/Simple-Resume-Template-Design-using-HTML/" target="_blank">Live Demo</a>
+                </div>
+
+                <div class="project">
+                    <img src="images/1_ii81kepNwum-fbLNgbMkUA.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Contact-Book-Management-System in python</p>
+                    <a href="https://github.com/arifulislamjihad/Contact-Book-Management-System" target="_blank">View Code</a>
+                    <a href="https://github.com/arifulislamjihad/Contact-Book-Management-System" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    Feel free to reach out for collaborations or inquiries.
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer>
+            <p>&copy; 2025 Ariful Islam Portfolio. All Rights Reserved</p>
+        </footer>
+
+    </main>
+</body>
+
+</html>
